@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title>Arte&Burguer</title>
+    <link rel="stylesheet" href="./styles.css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles.css/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+            <div class="cabecalho__menu__imgEtitulo">
+                <img class="cabecalho__imagem" width="60px" src="./assets/Logo.png" alt="Logo"> 
+                <h1 class="cabecalho__menu__titulo">Art&Burguer</h1>
+            </div>
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__links" href="index.html">Home</a>
+                <a class="cabecalho__menu__links" href="cardapio.html">Cardápio</a>
+                <a class="cabecalho__menu__links" href="#">Peça já</a>
+            </nav>
+    </header>
+    
+
+    <main>
+        <section class="container">
+            <section class="principal__caixa"> 
+                <h1 class="principal__titulo">Art<strong class="principal__titulo__destaque">&</strong>Burguer</h1>
+                <p class="principal__texto">Experimente um toque de arte enquanto aproveita <strong class=" principal__texto__destaque">o melhor sabor da culinária</strong>!</p>
+            </section>
+            <img src="./assets/hamburguer.png" alt="hamburguer pag principal" class="ham_principal"> 
+        </section>
+
+        <section class="historia">
+            <div class="historia__conteudo">
+                <h1 class="historia__titulo">Sobre nós</h1>
+                <p class="historia__texto">Há alguns anos, em São Paulo, Carlos, um amante de hambúrgueres, teve uma ideia brilhante. Ele convenceu sua amiga, Sofia, especialista em marketing, a abrir a "Art&Burguer". Eles focaram na qualidade dos ingredientes, criaram hambúrgueres gourmet incríveis e fizeram um evento de inauguração que atraiu multidões. As redes sociais ajudaram a espalhar a fama da hamburgueria, que logo se expandiu para a grande metrópole de São Paulo. Hoje, "Art&Burguer" é uma das hamburguerias mais populares da região, lembrando-nos de como paixão e qualidade podem levar ao sucesso nos negócios.</p>
+            </div>
+            <img src="./assets/Logo.png" alt="logo" width="400px"> 
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Conheça nosso espaço</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./assets/interior 1 - 600.jpg" alt="imagem do interior 1"></div>
+                    <div class="swiper-slide"><img src="./assets/interior 2.jpg" alt="imagem do interior 2"></div>
+                    <div class="swiper-slide"><img src="./assets/interior 3.jpg" alt="imagem do interior 3"></div>
+                    <div class="swiper-slide"><img src="./assets/interior 4.jpg" alt="imagem do interior 4"></div>
+                    <div class="swiper-slide"><img src="./assets/interior 5.jpg" alt="imagem do interior 5"></div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+  
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+  
+
+            </div>
+        </section>
+
+        <section class="espaco-mobile">
+            <h2 class="carrossel__titulo">Conheça nosso espaço</h2>
+            <img src="./assets/interior 1 - 600.jpg" alt="imagem do interior 1">
+            <img src="./assets/interior 2.jpg" alt="imagem do interior 2">
+            <img src="./assets/interior 3.jpg" alt="imagem do interior 3">
+            <img src="./assets/interior 4.jpg" alt="imagem do interior 4">
+            <img src="./assets/interior 5.jpg" alt="imagem do interior 5">
+        </section>
+
+
+    </main>
+
+    <div class="pedido">
+        <a href="#" class="pedido__texto">Pedir online<img width="50px" src="./assets/Delivery-PNG-Image.png" alt="delivery" class="delivery"></a>
+    </div>
+    
+
+
+    <footer class="rodape">
+    <section class="rodape__sobre">
+            <img class="logo__rodape" src="./assets/Logo.png" alt="logo rodape" width="200px">
+        <div class="rodape__conteudo">
+            <a href="index.html" class="rodape__titulo"><h1 class="rodape__titulo">Art<strong class="rodape__titulo__destaque">&</strong>Burguer</h1></a>
+            <p class="rodape__texto">O melhor hamburguer de SP</p>
+            <div class="contato">
+                <a href="https://facebook.com" target="_blank" class="contato__imagem"><img width="70px" src="./assets/Facebook.png" alt="facebook" class="contato__imagem"></a>
+                <a href="https://instagram.com" class="contato__imagem" target="_blank"><img width="70px" src="./assets/instagram.png" alt="instagram" class="contato__imagem"></a>
+                <a href="https://whatsapp.com" class="contato__imagem" target="_blank"><img width="70px" src="./assets/whatsapp.png" alt="whatsapp" class="contato__imagem"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="horario-localizacao">
+        <div class="horario">
+            <h1 class="horario__titulo">Horário</h1>
+            <p class="horario__texto">Terça a Domingo das 16 às 23h</p>
+        </div>
+        <div class="localizacao">
+            <h1 class="localizacao__titulo">Localização</h1>
+            <a target="_blank" href="https://www.google.com.br/maps/place/Sztern+Shop/data=!4m7!3m6!1s0x94cef97f1e2d0a7f:0x3eee0728b5469268!8m2!3d-23.5304201!4d-46.704839!16s%2Fg%2F11kq38q1y9!19sChIJfwotHn_5zpQRaJJGtSgH7j4?authuser=0&hl=pt-BR&rclk=1" class="localizacao__texto"><p class="localizacao__texto">Avenida XXXXXXX, 632 - São Paulo - Capital</p></a>
+        </div>
+    </section>
+    </footer>
+    <p class="creditos">Desenvolvido por: <strong class="creditos__destaque"><a class="creditos__destaque" target="_blank" href="https://br.linkedin.com/in/tayn%C3%A1-silveira-kikuti-923a8620a">Tayná Kikuti</a></strong>
+    </p>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 100,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+</html>
