@@ -60,6 +60,10 @@
     color:var(--cor-branco);
 }
 
+.cabecalho__menu__links:hover {
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--cor-branco);
+}
 
 
 body{
