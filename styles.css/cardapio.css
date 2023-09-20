@@ -40,6 +40,7 @@
     width: 75%;
     color: var(--cor-branco);
     padding-left: 2em;
+    outline: none;
     
 }
 
@@ -49,8 +50,8 @@
     font-family: var(--fonte-textos);
     font-size: 1.1rem;
     font-weight: 600;
-    background: url("/assets/Pesquisa.svg") no-repeat;
-    background-position: calc(50% - 105px);
+    background: url("/assets/icons8-lupa-24.png") no-repeat;
+    background-position: calc(50% - 115px);
 }
 
 .banner__imagem{
@@ -182,6 +183,11 @@
         align-self: center;
         background-image: none;
         padding: 20px 0;
+    }
+
+    .banner__cardapio::placeholder {
+        background-position: calc(50% - 110px);
+
     }
 
     /* card */  
