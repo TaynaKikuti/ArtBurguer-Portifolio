@@ -181,8 +181,9 @@
     
     .banner__pesquisa {
         align-self: center;
-        background-image: none;
+        background: none;
         padding: 20px 0;
+        
     }
 
     .banner__cardapio::placeholder {
