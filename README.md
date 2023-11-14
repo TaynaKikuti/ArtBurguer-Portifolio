@@ -26,7 +26,6 @@
 * HTML
 * CSS
 <h3> :dizzy:Desenvolvedores</h3>
-<p>
  <img src="(https://www.imgur.com/a/c89G4gn)" width=115><br>Tayná Silveira Kikuti<br>
   ![Link para GitHub da Tayná Kikuti](https://github.com/TaynaKikuti)
-</p>
+
